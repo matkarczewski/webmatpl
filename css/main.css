@@ -1,0 +1,118 @@
+body {
+	 background-color: #15171a;
+	 color: #efefef;
+  	 font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+ }
+
+footer {
+	 font-size: 14px;
+ }
+
+code {
+ 	 padding: 2px 4px;
+    color: #d14;
+    white-space: nowrap;
+    background-color: #F5F5F5;
+    border: 1px solid #e1e1e8;
+ }
+
+td, tr {
+ 	 padding: 5px;
+ }
+
+ul li::before {
+ 	 content: "\2022";
+  	 color: #2475D1;
+ 	 font-weight: bold;
+ 	 display: inline-block; 
+ 	 width: 1em;
+ 	 margin-left: -1em;
+}
+
+.naglowek {
+	 font-size: 40px;
+	 font-weight: bold;
+	 text-align: center;
+	 margin-top: 20px;
+	 margin-bottom: 0px;
+ }
+
+.naglowek-info{
+	 font-size: 17px;
+	 text-align: center;
+	 letter-spacing: 1.5px;
+ } 
+
+.contact {
+	 padding: 2px 4px;
+    white-space: nowrap;
+    background-color: #F5F5F5;
+    border: 1px solid #e1e1e8;
+    font-size: 15px;
+}
+
+.wpis {
+	 background-image: url('../img/webmat.png');
+	 background-position: right 20px top 20px;
+    background-repeat: no-repeat;
+	 text-align: justify;
+	 font-size: 16px;
+	 padding: 30px;
+	 margin-bottom: 40px;
+
+ }
+
+.list-group-item-dark, .nav-item {
+	 background-color: #373a3d;
+	 color: white;
+ }
+
+.list-group .active {
+	 background-color: #2475d1 !important;
+	 cursor: default;
+ }
+
+.blockquote {
+	 line-height: 120%;
+ }
+
+@media (max-width: 575px)
+{
+
+   .naglowek {
+	 font-size: 37px;
+	}
+
+	.naglowek-info{
+	 font-size: 14px;
+	}
+
+	.wpis	{
+		background-image: none;
+		margin: 40px 20px;
+		text-align: left;
+		font-size: 15px;
+	}
+	
+	.float-left, .float-right {
+		max-width: 33%;
+	}
+	
+	.blockquote	{
+		font-size: 17px;
+	}
+	
+	.list-group {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 991px) { 
+
+	nav {
+		margin-bottom: 20px;
+	}
+
+ }
